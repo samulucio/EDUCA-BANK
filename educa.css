@@ -1,0 +1,245 @@
+/*Configuração Padrão de início*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Chamamos o body para limitar o tamanho da altura e tamanho da página*/
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+header { /*Chamamos nosso Header para estilização*/ 
+    background-color: rgb(78, 135, 168); /*Cor de fundo*/
+    padding: 10vh; /*ajustamos o tamanho do preenchimento*/
+}
+
+.menu-header { /*Aqui é onde estão armazenados nossas listas do Header*/
+    display: flex; /*Usamos para jogar os itens lado a lado*/
+    justify-content: end; /*Aqui justificamos os itens desta lista para  o fim do Header*/
+    flex-wrap: wrap; /*Usado para informar que os itens podem quebrar em telas menores*/
+}
+
+.menu-header > li > a { /*Aqui sabemos que dentro da nossa LI existe uma TAG de Link "a" */
+   color: white; /*Cor da letra*/
+   text-decoration: none; /*Desabilitando a decoração dos textos de Link*/
+   font-size: 13px; /*Tamanho da letra*/
+}
+
+.menu-header > li > a:hover { /*Efeito ao passar o cursor*/
+    color: rgb(81, 81, 228); /*Habilitando uma cor ao passar o mouse*/
+    transition: 0.8s; /*Adicionamos aqui uma transição*/
+}
+.menu-header > li { /*Chamamos nossas Li diretamente para espaça-las*/
+    margin-left: 20px; /*Margem a esquerda para espaçamento*/
+}
+
+
+#sessao { /*Aqui chamamos nosso primeiro ID para estilização*/
+    padding: 30vh; /*Atribuimos um tamanho de preenchimento*/
+    background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%); /*Uma cor com Degradê*/
+    flex-wrap: wrap; /*Usado para informar que os itens podem quebrar em telas menores*/
+}
+
+
+#sessao > h1 { /*Alterando nosso Título*/
+    font-size: 45px; /*Tamanho da letra*/
+    color: rgba(0, 0, 0, 0.712); /*Cor da letra */
+}
+
+#sessao > p { /*Alterando nosso Paragráfo dentro da nossa primeira ID*/
+   font-size: 40px; /*Tamanho da letra*/
+}
+
+#sessao > button { /*Chamamos nosso Button que está dentro dessa primeira sessão*/
+    padding: 20px; /*Tamanho do preenchimento interno do botão*/
+    border-radius: 50px; /*Borda arredondada do botão*/
+    width: 20vw; /*Tamanho lateral do botão (largura)*/
+    color: rgb(19, 153, 108); /*Cor da letra*/
+    border-color: rgb(19, 153, 108); /*Cor da borda*/
+    margin: 30px; /*Margem em volta do Button*/
+    font-size: 15px; /*Tamanho da letra dentro do button*/
+}
+
+
+#sessao > button:hover { /*Efeito ao passar o cursor */
+    background-color: rgb(90, 168, 168); /*Atribuimos a cor que ficará*/
+    color: white; /*Cor da letra que irá se tornar ao passar o cursos*/
+    border-color: white; /*cor da borda ao passar o cursor*/
+    transition: 0.5s;
+    }
+      
+
+
+
+#app { /*Aqui chamamos nosso segundo ID da página*/
+    padding: 30vh; /*Atribuimos um tamanho para o preenchimento*/
+    background-color: rgb(226, 233, 233); /*cor de fundo*/
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#app > div > button { /*Aqui chamamos nosso botão para estilização*/
+    padding: 20px; /*Preenchimento do nosso botão*/
+    border-radius: 50px; /*Arredondamento da borda do botão*/
+    width: 20vw; /*Ajustamos a largura do botão*/
+    color: rgb(19, 153, 108); /*Aqui atribuimos uma cor a letra do botão*/
+    border-color: rgb(19, 153, 108); /*Cor da borda*/
+    margin: 30px; /*Margem em volta do Button*/
+    font-size: 15px; /*Tamanho da letra dentro do Button*/
+}
+
+
+#app > div > p{ /*Chamamos nosso Parágrafo para estilização*/
+    font-size: 43px; /*Alteração do tamanho da letra*/
+}
+
+#app > div button:hover{ /*Aqui chamamos nosso botão para estilização ao passar o Cursor*/
+    background-color: rgb(90, 168, 168); /*A cor de fundo mudará para esta*/
+    color: white; /*Cor da letra*/
+    border-color: white; /*Cor da borda*/
+    transition: 0.5s;
+}
+
+
+#app > div img { /*Imagem que está dentro da nossa segunda Section*/
+    width: 30vw; /*Lagura da nossa img*/
+    height: 60vh; /*Altura da nossa img*/
+    margin-left: 50px; /*Margem a Esquerda*/
+    margin-top: -70px; /*Margem a Direita*/
+}
+
+
+
+
+
+#container { /*Aqui chamamos nossa terceira section da página*/
+    padding: 30vh; /*Atribuimos um preenchimento*/
+    background-color: rgb(226, 233, 233); /*Cor de fundo*/
+    flex-wrap: wrap; /*Usado para informar que os itens podem quebrar em telas menores*/
+}
+
+#container h2 { /*Chamamos nosso H2 para estilização*/
+    font-size: 40px; /*Tamanho da letra*/
+    margin-top: -20rem; /*Margem superior*/
+    color: rgb(34, 34, 74); /*Cor da letra*/
+    text-align: center; /*Alinhamento do texto ao centro*/
+}
+
+#container p { /*Chamamos nosso Parágrafo para estilização*/
+    font-size: 20px; /*Tamanho da letra*/
+    margin-top: 30px; /*Margem superior*/
+    color: rgba(0, 0, 0, 0.564); /*Cor da letra*/
+    text-align: justify; /*Aqui justificamos o texto*/
+}
+
+#container .text1 { /*Aqui chamamos a class de um dos nossos P que terá confi diferente*/
+    text-align: center; /*Alinhando ao centro*/
+}
+
+#container button { /*Chamamos nosso Button para alteração*/
+    padding: 20px; /*Preenchimento do Botão*/
+    border-radius: 50px; /*Arredondamento da borda do botão*/
+    width: 15vw; /*Largura do botão*/
+    color: rgb(50, 50, 226); /*Cor da letra*/
+    border-color: rgb(50, 50, 226); /*Cor da borda*/
+    margin: 60px; /*Margem em torno no botão*/
+    font-size: 15px; /*Tamanho da letra*/
+    
+}
+
+
+#container button:hover { /*Cor do botão ao passar o cursor*/
+    background-color: rgb(50, 50, 226); /*Cor de fundo*/
+    color: white; /*Cor da letra*/
+    border-color: white; /*Cor da letra*/
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.line { /*Class usada para nossa Tag HR*/
+    margin: 0 auto; /*Margem zerada e automatica*/
+    width: 70%; /*Tamanho da linha*/
+}
+
+#container img { /*Imagem dentro da nossa Terceira section*/
+    margin-left: 10vw; /*Margem a esquerda*/
+    margin-top: 30px; /*Margem superior*/
+    width: 50vw; /*Largura da imagem*/
+}
+
+#container-cofre { /*Aqui começamos a estilizar nossa quarta section*/
+   background: linear-gradient(180deg, #0c16a364 8.33%, rgba(5, 39, 101, 0.745) 100%), url(https://www.qsbank.com.br/wp-content/uploads/2022/02/texture4-1.jpg); /*Atribuimos antes da imagem uma cor para que fique sobreposta a imagem que está ao lado*/
+   background-position: center; /*posicionamento da imagem*/
+   background-attachment: fixed; /*Posicionamento fixo da imagem*/
+   padding: 10%; /*altura da section*/
+   display: flex; /*Habilitando os itens lado a lado*/
+   align-items: center; /*Alinhando os itens ao centro*/
+   justify-content: space-evenly;
+}
+
+
+#container-cofre img { /*Chamamos nossa IMG para estilização*/
+    width: 25vw; /*Largura da img*/
+    margin-top: 10rem; /*Margem superior*/
+    height: auto;
+    flex-wrap: wrap; /*Usado para informar que os itens podem quebrar em telas menores*/
+}
+
+#container-cofre h2 { /*Chamamos nossa TAG H2 para estilização*/
+    
+    color: white; /*Cor da letra*/
+    font-size: 30px; /*Tamanho da letra*/
+    text-align: center;
+}
+
+#container-cofre p { /*Nossa Tag de parágrafo para estilização*/
+    color: white; /*Cor da letra*/
+    font-size: 17px; /*Tamanho da letra*/
+    text-align: center;
+    margin-top: 2rem; /*margem superior*/
+   
+}
+
+
+
+
+
+footer { /*Aqui começamos a estilização do Rodapé*/
+    padding: 13vh; /*Preenchimento do Rodapé*/ 
+    background-color: rgb(29, 28, 28); /*Cor de fundo*/
+    text-align: center; /*Alinhando ao centro*/
+    
+}
+
+footer img { /*Trabalhando nas IMG dentro do Footer*/
+    width: 13rem; /*Largura*/
+    height: 4rem; /*Altura*/
+    margin-top: -5rem; /*Margem superior*/
+}
+
+footer p { /*Aqui chamamos nossa Tag de parágrafo*/
+    color: white; /*Cor da letra*/
+    font-size: 16px; /*Tamanho da letra*/
+}
+
+.item-footer { /*Nossa Class que está dentro da UL*/
+    color: rgba(255, 255, 255, 0.5); /*Habilitamos uma cor a letra*/
+    display: flex; /*Habilitamos os itens lado a lado*/
+    justify-content: space-between; /*Aqui colocamos os itens com um espaçamento do início ao Fim*/
+    
+}
+
+.item-footer a { /*Aqui chamamos nossa Tag de link*/
+    color: rgba(255, 255, 255, 0.5); /*Cor da letra*/
+    text-decoration: none; /*Desabilitamos a cor da letra*/
+}
+
+.item-footer a:hover{ /*Efeito ao passar o cursor*/
+    color: rgba(232, 8, 202, 0.767); /*Cor da letra*/
+    transition: 0.8s; /*Tempo de transição*/
+} 
