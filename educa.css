@@ -13,7 +13,7 @@ body {
 }
 
 header { /*Chamamos nosso Header para estilização*/ 
-    background-color: rgb(78, 135, 168); /*Cor de fundo*/
+    background-color: rgb(63, 34, 131); /*Cor de fundo*/
     padding: 10vh; /*ajustamos o tamanho do preenchimento   --  podemos usar 70px*/
 }
 
@@ -40,7 +40,7 @@ header { /*Chamamos nosso Header para estilização*/
 
 #sessao { /*Aqui chamamos nosso primeiro ID para estilização*/
     padding: 30vh; /*Atribuimos um tamanho de preenchimento  -- podemos usar 200px*/
-    background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%); /*Uma cor com Degradê*/
+    background: linear-gradient(180deg, #c0cdcf 8.33%, rgb(84, 67, 145) 100%); /*Uma cor com Degradê*/
     flex-wrap: wrap; /*Usado para informar que os itens podem quebrar em telas menores*/
 }
 
@@ -59,19 +59,19 @@ header { /*Chamamos nosso Header para estilização*/
     border-radius: 50px; /*Borda arredondada do botão*/
     width: 20vw; /*Tamanho lateral do botão (largura) ----  podemos usar 300px*/
     cursor: pointer;
-    border-color: rgb(19, 153, 108); /*Cor da borda*/
+    border-color: rgb(66, 19, 153); /*Cor da borda*/
     margin: 30px; /*Margem em volta do Button*/
     
 }
 
 #sessao > button a {
     text-decoration: none;
-    color: rgb(19, 153, 108); /*Cor da letra*/
+    color: rgb(70, 19, 153); /*Cor da letra*/
     font-size: 15px; /*Tamanho da letra dentro do button*/
 }
 
 #sessao > button:hover { /*Efeito ao passar o cursor */
-    background-color: rgb(90, 168, 168); /*Atribuimos a cor que ficará*/
+    background-color: rgb(133, 90, 168); /*Atribuimos a cor que ficará*/
     border-color: white; /*cor da borda ao passar o cursor*/
     transition: 0.5s;
     }
@@ -96,8 +96,8 @@ header { /*Chamamos nosso Header para estilização*/
     padding: 20px; /*Preenchimento do nosso botão*/
     border-radius: 50px; /*Arredondamento da borda do botão*/
     width: 20vw; /*Tamanho lateral do botão (largura) ----  podemos usar 300px*/
-    color: rgb(19, 153, 108); /*Aqui atribuimos uma cor a letra do botão*/
-    border-color: rgb(19, 153, 108); /*Cor da borda*/
+    color: rgb(66, 19, 153); /*Aqui atribuimos uma cor a letra do botão*/
+    border-color: rgb(44, 19, 153); /*Cor da borda*/
     margin: 30px; /*Margem em volta do Button*/
     font-size: 15px; /*Tamanho da letra dentro do Button*/
     cursor: pointer;
@@ -109,7 +109,7 @@ header { /*Chamamos nosso Header para estilização*/
 }
 
 #app > div button:hover{ /*Aqui chamamos nosso botão para estilização ao passar o Cursor*/
-    background-color: rgb(90, 168, 168); /*A cor de fundo mudará para esta*/
+    background-color: rgb(150, 90, 168); /*A cor de fundo mudará para esta*/
     transition: 0.8s;
     border-color: white; /*Cor da borda*/
     
@@ -117,7 +117,7 @@ header { /*Chamamos nosso Header para estilização*/
 
 #app div button a {
     text-decoration: none;
-    color: rgb(19, 153, 108); /*Cor da letra*/
+    color: rgb(55, 19, 153); /*Cor da letra*/
     font-size: 15px; /*Tamanho da letra dentro do button*/
 }
 
